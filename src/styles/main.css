@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  background-color: #fafafa;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.pdp-main-grid {
+  display: grid;
+  grid-template-columns: 55% 41%;
+  gap: 4%;
+  align-items: start;
+}
+
+/* System State Render Styles */
+.center-viewport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.error-txt {
+  color: #e75650;
+}
+
+@media (max-width: 767px) {
+  .app-container {
+    padding: 16px;
+  }
+  .pdp-main-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
