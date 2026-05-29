@@ -2,7 +2,7 @@
 
 A production-ready product detail page for a premium outdoor gear storefront built with React 18, plain JavaScript, and native external CSS. No utility frameworks or CSS-in-JS were used, maintaining a lightweight performance footprint.
 
-### Live URL :
+### Live URL : https://arkanfaujdar-nua-pdp.netlify.app
 
 # Setup
 
