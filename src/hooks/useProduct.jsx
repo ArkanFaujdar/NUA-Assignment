@@ -18,20 +18,20 @@ export const useProduct = (productId) => {
         // Enriching raw API data with required mock variants for production validation
         const enrichedData = {
           ...data,
-          brand: "Apex Elements Co.",
+          brand: "ARK Elements Co.",
           originalPrice: (data.price * 1.25).toFixed(2), // 25% markup for sale visual representation
           colors: [
             {
-              name: "Siren Coral",
+              name: "Red",
               hex: "#e75650",
               images: [data.image, data.image, data.image],
             },
             {
-              name: "Alpine Charcoal",
+              name: "Charcoal",
               hex: "#2c3e50",
               images: [data.image, data.image],
             },
-            { name: "Summit White", hex: "#f8f9fa", images: [data.image] },
+            { name: "White", hex: "#f8f9fa", images: [data.image] },
           ],
           sizes: [
             { name: "S", stock: 0 },

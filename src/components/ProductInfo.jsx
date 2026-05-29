@@ -22,17 +22,6 @@ export const ProductInfo = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
   const [isAdding, setIsAdding] = useState(false);
 
-  // Sync state mutation back onto the explicit URL parameters string
-  useEffect(() => {
-    const params = new URLSearchParams();
-    params.set("color", selectedColor);
-    params.set("size", selectedSize);
-
-    const newUrl = `${window.location.pathname}?${params.toString()}`;
-    console.log(newUrl);
-    window.history.replaceState({}, "", newUrl);
-  }, [selectedColor, selectedSize]);
-
   const currentSizeObj = product.sizes.find((s) => s.name === selectedSize);
   const currentStock = currentSizeObj ? currentSizeObj.stock : 0;
 
