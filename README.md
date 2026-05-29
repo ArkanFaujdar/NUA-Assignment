@@ -4,24 +4,18 @@ A production-ready product detail page for a premium outdoor gear storefront bui
 
 ### Live URL : https://arkanfaujdar-nua-pdp.netlify.app
 
-# Setup
+## Setup
 
--> Prerequisites
-Ensure you have Node.js (v18+) installed on your machine.
+-> Prerequisites : Ensure you have Node.js (v18+) installed on your machine.
 
 ### Installation Steps
 
--> Clone the repository
-git clone https://github.com/ArkanFaujdar/NUA-Assignment.git
+-> Clone the repository : git clone https://github.com/ArkanFaujdar/NUA-Assignment.git
 
--> Navigate to the root directory
-cd Nua-Assignment
+-> Navigate to the root directory : cd Nua-Assignment
 
--> Install dependencies:
-npm install
+-> Install dependencies : npm install
 
--> Running the local development server:
-npm run dev
+-> Running the local development server : npm run dev
 
--> OPTIONAL: Creating a build for production
-npm run build
+-> OPTIONAL: Creating a build for production : npm run build
